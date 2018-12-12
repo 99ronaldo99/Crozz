@@ -1,0 +1,44 @@
+<!--
+  Generated template for the FavoritosPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="secondary">
+  	<button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Favoritos<div class="btn-setting" (click)="openSetting()" ><ion-icon name="settings"></ion-icon></div></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+</ion-content>
+
+
+<ion-footer>
+   <ion-navbar color="dark" >
+   	<div class="contenedor-botones">
+	   	<div class="btn-1">
+	   		<button ion-button  clear (click)="openHome()" > <ion-icon ios="ios-home" md="md-home"></ion-icon></button>
+	   		<p><strong>Home</strong></p>
+	   	</div>
+	    <div class="btn-2">
+	    	<button ion-button clear text-center  > <ion-icon ios="ios-star" md="md-star"></ion-icon>
+	    	</button>
+	    	<p><strong>Favoritos</strong></p>
+	    </div>
+	    <div class="btn-3">
+	    	<button ion-button clear text-center (click)="openMaps()" ><ion-icon ios="ios-navigate" md="md-navigate"></ion-icon>
+
+	    	</button><p><strong>Maps</strong></p>
+	    	
+	    </div>
+	</div>
+   </ion-navbar>
+</ion-footer>

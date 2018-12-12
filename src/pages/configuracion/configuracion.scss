@@ -1,0 +1,23 @@
+.contenedor-botones{
+	display: flex;
+}
+
+.contenedor-botones .btn-1{
+	margin-left: 20px;
+}
+
+.contenedor-botones .btn-2{
+	margin: 0 auto;
+    display: block;
+}
+
+.contenedor-botones .btn-3{
+	float: right;
+    display: flex;
+    margin-right: 20px;
+}
+
+p{
+	margin: 0px;
+    text-align: center;
+}

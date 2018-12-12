@@ -1,0 +1,38 @@
+.contenedor-botones{
+	display: flex;
+}
+
+.contenedor-botones .btn-1{
+	margin-left: 20px;
+}
+
+.contenedor-botones .btn-2{
+	margin: 0 auto;
+    display: block;
+}
+
+.contenedor-botones .btn-3{
+	float: right;
+	display: block;
+    margin-right: 20px;
+}
+
+p{
+	margin: 0px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.style-header{
+	background-color: #5ba2ef;
+}
+
+.btn-setting{
+	float: right;
+	display: block;
+    /*margin-right: 20px;*/
+}
+
+.contenedor-botones button{
+	color: #ffc639;
+}
